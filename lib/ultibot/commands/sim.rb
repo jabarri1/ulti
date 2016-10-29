@@ -2,7 +2,7 @@ module ArmoryBot
   module Commands
     module Sim
       extend Discordrb::Commands::CommandContainer
-      command(:sim) do |event|
+      command(:sim, bucket: :sim) do |event|
         sim = ["Your current item is a bit better...disenchant maybe?", 
           "I think I could use that, actually. Give me!", 
           "That's roughly a 2 percent increase.", 

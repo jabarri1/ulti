@@ -4,6 +4,10 @@ module ArmoryBot
 				  prefix: '!', 
 				  advanced_functionality: false, debug: true)
 
+	bot.bucket(:sim, limit: 2,
+						time_span: 60,
+						delay: 10)
+
 	bot.include! Commands::Sim
 
 	bot.run :async
