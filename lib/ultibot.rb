@@ -4,15 +4,15 @@
 require 'bundler/setup'
 Bundler.require(:default)
 
-require_relative 'armory_bot/version'
+require_relative 'ultibot/version'
 
-require_relative 'armory_bot/bot'
+require_relative 'ultibot/bot'
 
-#Dir["#{File.dirname(__FILE__)}/armory_bot/commands/*.rb"].each { |file| require file }
-#Dir["#{File.dirname(__FILE__)}/armory_bot/events/*.rb"].each { |file| require file }
-#Dir["#{File.dirname(__FILE__)}/armory_bot/heroes/*.rb"].each { |file| require file }
-#Dir["#{File.dirname(__FILE__)}/armory_bot/hots/*.rb"].each { |file| require file }
+#Dir["#{File.dirname(__FILE__)}/ultibot/commands/*.rb"].each { |file| require file }
+#Dir["#{File.dirname(__FILE__)}/ultibot/events/*.rb"].each { |file| require file }
+#Dir["#{File.dirname(__FILE__)}/ultibot/heroes/*.rb"].each { |file| require file }
+#Dir["#{File.dirname(__FILE__)}/ultibot/hots/*.rb"].each { |file| require file }
 
-require_relative 'armory_bot/commands'
+require_relative 'ultibot/commands'
 
-require_relative 'armory_bot/armorybot'
+require_relative 'ultibot/ultibot'
