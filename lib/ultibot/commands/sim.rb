@@ -15,7 +15,7 @@ module ArmoryBot
           "On a scale of 1-10 it's probably an 8.56345",
           "You're simming less than the tank, probably forgot to flask",
           "Sims say we should put warlock gateway over there instead",
-          "We should try Time Warping during the transitioning so Luci & Wicks can run faster",
+          "We should try Time Warping during the transition so Luci & Wicks can run faster",
           "That's an 32.3333% damage increase, repeating of course."]
           presim = ["https://cdn.discordapp.com/attachments/100313873264963584/239567548671066112/WIN_20161022_21_46_14_Pro.jpg",
                     "Let me sim that for you...hmm...",
