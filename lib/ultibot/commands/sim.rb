@@ -2,7 +2,7 @@ module ArmoryBot
   module Commands
     module Sim
       extend Discordrb::Commands::CommandContainer
-      command(:sim, bucket: :sim, rate_limit_message: "You've simmed too much, wait %time%") do |event|
+      command(:sim, bucket: :sim, rate_limit_message: "You've simmed too much, wait %time% secs") do |event|
         sim = ["Your current item is a bit better...disenchant maybe?", 
           "I think I could use that, actually. Give me!", 
           "That's roughly a 2 percent increase.", 
