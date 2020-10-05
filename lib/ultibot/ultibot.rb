@@ -1,6 +1,6 @@
 module ArmoryBot
-	bot = Discordrb::Commands::CommandBot.new(token: 'MjQxNzUzODY5NTY1MDM0NDk3.CvWeXQ.xMQm6iy1rksL3jT1z4hVdMBQBV0', 
-				  client_id: '241753869565034497', 
+	bot = Discordrb::Commands::CommandBot.new(token: '', 
+				  client_id: '', 
 				  prefix: '!', 
 				  advanced_functionality: false, debug: true)
 
